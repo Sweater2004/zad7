@@ -1,6 +1,10 @@
 <?php
 
+
+
 use \Bitrix\Main\Localization\Loc;
+
+
 
 class CIBlockPropertyCProp
 {
@@ -19,7 +23,9 @@ class CIBlockPropertyCProp
             'GetSettingsHTML' => array(__CLASS__, 'GetSettingsHTML'),
             'PrepareSettings' => array(__CLASS__, 'PrepareUserSettings'),
             'GetLength' => array(__CLASS__, 'GetLength'),
-            'GetPublicViewHTML' => array(__CLASS__, 'GetPublicViewHTML')
+            'GetPublicViewHTML' => array(__CLASS__, 'GetPublicViewHTML'),
+
+
         );
     }
 
